@@ -1,11 +1,13 @@
 
 name: Python CI
 
+
 on:
   push:
-  branches: [ "develop", "main", "experiment/failing-test" ]
+    branches: ["develop", "main", "experiment/failing-test"]
   pull_request:
-    branches: [ "develop", "main" ]
+    branches: ["develop", "main"]
+
 
 jobs:
   test:
